@@ -1,6 +1,7 @@
 import React from 'react';
 import './assets/css/header.css'
 import NavBar from './components/NavBar/NavBar';
+import Header from './components/Header/Header';
 import {
   Box,
 } from '@chakra-ui/react'
@@ -8,8 +9,9 @@ import {
 function App() {
   return (
     <div className='header-center' >
-      <Box w='70%' h='20%' bg='tomato' p='4' color='white'>
-        <NavBar />
+      <Box w='70%'>
+          <NavBar />
+          <Header />
       </Box>
     </div>
   );
