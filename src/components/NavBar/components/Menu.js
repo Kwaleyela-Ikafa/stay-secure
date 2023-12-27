@@ -29,9 +29,9 @@ function NavMenu() {
         variant='outline'
       />
       <MenuList color={'black'}>
-        <MenuItem>New Window</MenuItem>
-        <MenuItem>Open Closed Tab</MenuItem>
-        <MenuItem>Open File</MenuItem>
+        <MenuItem>About Us</MenuItem>
+        <MenuItem>Services</MenuItem>
+        <MenuItem>Request a Quote</MenuItem>
       </MenuList>
     </Menu>
   )
